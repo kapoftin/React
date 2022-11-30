@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.black{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px; 
+    font-weight: 700;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    .div_img{
+        height: 100px;
+        width: 200px;
+    }
+    .div_img2{
+        height: 100px;
+        width: 200px;
+    }
+    .flex{
+        color: #1DC985;  
+        text-decoration: none;
+        background-color: rgb(36, 36, 36); 
+        height: 100px; 
+    }
+
+    .div_one{
+        color: rgb(255, 255, 255);        
+        width: 500px;
+        
+    }    
+    
+    @media (max-width: 1992px){
+        .div_empty{
+            width: 220px;
+        }
+    }
+
+
+    .div_empty{
+        width: 500px;
+    }
+    @media(max-width: 1476px){
+        
+        .div_empty{
+            width: 320px;
+        }
+        .div_one{
+            width: 280px; 
+        }
+    }
+    
+    @media(max-width: 1176px){
+        .div_empty{
+            width: 0px;
+            
+        }
+        .div_one{
+            margin-left: 0px;
+            
+        }
+    }
+
+    @media(max-width: 360px){
+        .div_empty{
+            width: 0px;
+            
+        }
+        .div_one{
+            margin-left: 0px;
+            
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.black2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px; 
+    font-weight: 700;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+
+
+    .div_empty{
+        width: 500px;
+    }
+
+    .div_img{
+        height: 100px;
+        width: 200px;
+    }
+    .div_img2{
+        height: 100px;
+        width: 200px;
+    }
+    .flex{
+        color: #1DC985;  
+        text-decoration: none;
+        background-color: rgb(36, 36, 36); 
+        height: 100px; 
+    }
+
+    .div_one{
+        color: rgb(255, 255, 255);        
+        width: 500px;
+        
+    }    
+    
+    @media (max-width: 1992px){
+        .div_empty{
+            width: 220px;
+        }
+    }
+
+    @media(max-width: 1476px){
+        
+        .div_empty{
+            width: 0px;
+        }
+        .div_one{
+            width: 200px; 
+        }
+    }
+    
+    @media(max-width: 1176px){
+        .div_empty{
+            width: 0px;
+            
+        }
+        .div_one{
+            margin-left: 0px;
+            
+        }
+    }
+
+    @media(max-width: 360px){
+        .div_empty{
+            width: 0px;
+            
+        }
+        .div_one{
+            margin-left: 0px;
+            
+        }
+    }
+}

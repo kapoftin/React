@@ -1,0 +1,89 @@
+
+.morty{
+    margin-right: 110px;
+    display: flex;
+justify-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+font-family: Roboto Condensed;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+box-shadow: black;
+
+div{
+    margin-top: 40px;
+    
+}
+}
+.first{
+    
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 110px;
+    
+    img{
+        margin-top: 40px;
+        
+        
+    }
+}
+.color{    
+    background-color: #232222;
+    width: 260px;
+    height: 340px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.443);
+    margin-right: 60px;
+}
+
+
+
+
+
+
+
+@media(max-width: 1476px){
+    .color{            
+        margin-right: 10px;
+    }
+    .first{
+        margin-bottom: 15px;
+        margin-right: 20px;
+    }
+    .morty{
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 1176px){
+    .color{            
+        margin-right: 10px;
+    }
+    .first{
+        margin-bottom: 15px;
+        margin-right: 20px;
+    }
+    .morty{
+        margin-right: 40px;
+    }
+}
+
+@media(max-width: 360px){
+    .color{            
+        margin-right: 0px;
+    }
+    .first{
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+    .morty{
+        margin-right: 0px;
+    }
+}

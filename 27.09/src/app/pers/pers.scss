@@ -1,0 +1,61 @@
+.block{
+    display: flex;
+    justify-content: center;
+    margin-right: 790px;
+    .img{
+        margin-right: 60px;
+    }
+    .Alive{
+        margin-bottom: 3px;
+    }
+    .big{
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 1992px){
+    .block{
+        display: flex;
+        justify-content: center;
+        margin-right: 790px;
+    }
+}
+
+@media(max-width: 1476px){
+    .block{
+        display: flex;
+        justify-content: center;
+        margin-right: 385px;
+    }
+}
+
+@media(max-width: 1176px){
+    .block{
+        display: flex;
+        justify-content: center;
+        margin-right: 65px;
+    }
+}
+@media(max-width: 700px){
+    .block{
+        display:table-row;
+        justify-content: center;
+        
+    }
+    .img{
+        width: 250px;
+        margin-left: 120px;
+    }
+    .big{
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+    .word{
+        margin-left: 120px;
+    }
+
+}
