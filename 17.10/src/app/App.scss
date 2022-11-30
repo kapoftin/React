@@ -1,0 +1,62 @@
+@import url('../style/style.scss');
+
+
+.all{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F8FB;
+}
+.health1{
+    display: flex;
+}
+.health{
+    margin-top: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.flex{
+    display: flex;
+    justify-content: left;
+    padding-left: 25px;
+
+}
+@media(max-width: 645px) {
+    .flex{
+        display: flex;
+        justify-content: left;
+        padding-left: 55px;
+    
+    }
+}
+.left-hand-panel{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.diving{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.centr{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+@media(max-width: 645px) {
+    .diving{
+        display: flex;     
+        gap: 30px;
+    }
+}
+@media(max-width: 1250px) {
+.centr{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    display: none;
+}
+}
+

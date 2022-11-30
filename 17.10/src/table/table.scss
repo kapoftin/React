@@ -1,0 +1,87 @@
+.app {
+    &__TxtAppo {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.2px;
+        color: #25282B;
+        padding-top: 24px;
+        padding-bottom: 18px;
+        padding-left: 28px;
+    }
+
+    &__table {
+        height: 410px;
+        width: 1240px;
+        border-radius: 8px;
+        background: #FFFFFF;
+        box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+
+    &__img {
+        margin-right: 12px;
+        margin-left: 24px;
+    }
+
+    &__line {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        color: #52575C;
+    }
+
+    &__lineTxtIcon {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        color: #52575C;
+    }
+
+    &__tableLogo {
+        background-color: rgba(#E8E8E8, 0.2);
+    }
+
+    &__tableLogog {
+        background-color: rgba(#E8E8E8, 0.2);
+        padding-left: 28px;
+    }
+
+    &__border {
+        height: 56px;
+        border-bottom-width: 1px;
+        /* Толщина линии внизу */
+        border-bottom-style: solid;
+        /* Стиль линии внизу */
+        border-bottom-color: #DBDDE0;
+        /* Цвет линии внизу */
+    }
+
+    &__lineLogo {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        color: #25282B;
+    }
+
+    &__imgIcon {
+        padding-right: 15px;
+    }
+
+    &__imgIconTwo {
+        padding-right: 20px;
+    }
+
+    &__YaSlab {
+        display: flex;
+        justify-content: space-between;
+    }
+}
