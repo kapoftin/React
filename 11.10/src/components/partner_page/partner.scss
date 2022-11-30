@@ -1,0 +1,122 @@
+.green_ttxtt {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #00CA90;
+    margin-top: 80px; //delete
+}
+
+.green_ttxtt:hover {
+    color: #00CA90;
+}
+
+.app {
+    &__img__part {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    &__text__part {
+        max-width: 552px;       
+            margin-left: 100px;             
+    }
+    @media(max-width: 865px) {
+        &__text__part {
+            margin-left: 0px;
+        }
+    }
+
+    &__imposible__txt {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        color: #013A51;
+        margin-top: 15px;
+        margin-bottom: 42px;
+    }
+
+    &__something__about__java {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 34px;
+        color: #013A51;
+        margin-top: 40px;
+    }
+
+    &__melkiy {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: #013A51;
+        margin-top: 20px;
+        margin-bottom: 46px;
+    }
+
+    &__img_and_txt {
+        display: flex;
+        gap: 38px;
+        margin-bottom: 50px;
+    }
+
+    &__Daniel {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #013A51;
+    }
+
+    &__bottom-Daniel {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 17px;
+        color: #013A51;
+    }
+}
+
+.More {
+    &__More {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__More__txt {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #00CA90;
+        color: #013A51;
+        font-weight: 400;
+        height: 50px;
+        max-width: 350px;
+        line-height: 16px;
+        font-size: 15px;
+        border-radius: 2px;
+        border-radius: 50px;
+        transition: .50s;
+    }
+
+    &__More__txt:hover {
+        color: white;
+        background-color: #00CA90;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.050);
+        border-radius: 50px;
+    }
+
+    @media(max-width: 865px) {
+        &__More__txt {
+            max-width: 100px;
+            margin-bottom: 100px;
+        }
+        &__text__part {
+            margin-left: 0px;
+        }
+    }
+}

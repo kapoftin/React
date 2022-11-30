@@ -1,0 +1,144 @@
+@import url(/src/style/style.scss);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+.app {
+    &__main {
+        background: #F2F4E8;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__div__img {
+        margin-bottom: 25px;
+        margin-top: 60px;
+    }
+
+    &__p1 {
+        margin-top: 150px;
+        max-width: 535px;
+        margin-right: 120px;
+    }
+
+    &__p2 {
+        max-width: 425px;
+        margin-top: 85px;
+    }
+
+    &__big_txtt {
+        font-size: 41px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    &__average_txt {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    &__button__flexxx {
+        display: flex;
+    }
+
+    &__div__txt {
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #013A51;
+        margin-bottom: 10px;
+    }
+
+    &__div__txt__small {
+        color: #5C7782;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    &__bottom {
+        color: #5C7782;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 100px;
+    }
+
+
+    @media(max-width: 865px) {
+        &__p1 {
+            margin-right: 0px;
+        }
+    }
+
+    @media(max-width: 265px) {
+        &__big_txt {
+            font-size: 25px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: center;
+        }
+    }
+}
+
+.gren_txt {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00CA90;
+}
+
+.Knop {
+    &__knop {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__knop__txt {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #00CA90;
+        color: #013A51;
+        font-weight: 400;
+        height: 50px;
+        width: 262px;
+        line-height: 16px;
+        font-size: 15px;
+        border-radius: 2px;
+        border-radius: 50px;
+        transition: .50s;
+    }
+
+    &__knop:hover {
+        color: white;
+        background-color: #00CA90;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.050);
+        border-radius: 50px;
+    }
+
+    @media(max-width: 865px) {
+        &__knop__txt {
+            width: 100px;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.app {
+    &__agitation__str {
+        display: flex;
+        justify-content: center;
+        background: #F2F4E8;
+    }
+
+
+    &__agitation__block {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F2F4E8 217.84%), #193844;
+        border-radius: 30px;
+        width: 1090px;
+        height: 328px;
+        border-radius: 30px;
+        margin-top: 150px;
+        margin-bottom: 75px;
+    }
+
+    &__agitation__big__txt {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 74px;
+    }
+    @media(max-width: 285px) {
+        &__agitation__big__txt {
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 28px;
+            margin-top: 34px;
+        }
+    }
+
+    &__agitation__small__txt {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 397px;
+        margin: auto;
+    }
+
+    &__buttonInblock {
+        display: flex;
+        justify-content: center;
+        margin-top: 39px;
+    }
+}

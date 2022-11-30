@@ -1,0 +1,99 @@
+.green_txttt {
+    margin-bottom: 9px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #00CA90;
+}
+
+.green_txttt:hover {
+    color: #00CA90;
+}
+
+.app {
+    &__blog__str {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background: #F2F4E8;
+    }
+
+    &__blog__txt {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 42px;
+        line-height: 56px;
+        text-align: center;
+        color: #013A51;
+        max-width: 742px;
+    }
+    @media(max-width: 865px) {
+        &__blog__txt{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 36px;
+            text-align: center;
+            color: #013A51;
+            max-width: 642px;
+        }
+    }
+
+    &__blog__button {
+        display: flex;
+        justify-content: center;
+        margin-top: 62px;
+        margin-bottom: 150px;
+    }
+
+    &__block__margin {
+        margin-top: 75px;
+    }
+}
+
+.Read {
+    &__Read {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__Read__txt {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #00CA90;
+        color: #013A51;
+        font-weight: 400;
+        height: 50px;
+        width: 280px;
+        line-height: 16px;
+        font-size: 15px;
+        border-radius: 2px;
+        border-radius: 50px;
+        transition: .50s;
+    }
+
+    &__Read__txt:hover {
+        color: white;
+        background-color: #00CA90;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.050);
+        border-radius: 50px;
+    }
+
+    @media(max-width: 865px) {
+        &__Read__txt {
+            max-width: 100px;
+            margin-bottom: 100px;
+        }
+        &__blog__txt{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 36px;
+            text-align: center;
+            color: #013A51;
+            max-width: 642px;
+        }
+    }
+}

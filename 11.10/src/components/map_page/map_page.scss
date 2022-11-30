@@ -1,0 +1,143 @@
+@import url(/src/style/style.scss);
+
+* {
+    font-family: 'Roboto';
+}
+
+.app {
+    div {
+        margin-bottom: 20px;
+    }
+
+    &__start {
+        background-color: #FBFCF5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__average {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        max-width: 846px;
+        margin-left: 110px;
+    }
+
+    &__btns {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+
+    &__big {
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    &__small {
+        margin-top: 100px;
+        color: #00CA90;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    @media(max-width: 1075px) {
+        &__average {
+            margin-left: 0px;
+        }
+
+        &__btns {
+            gap: 20px;
+        }
+    }
+
+}
+
+.Buton {
+    &__nop {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__nop__txt {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #192F44;
+        color: #FFFFFF;
+        font-weight: 400;
+        height: 50px;
+        width: 262px;
+        line-height: 16px;
+        font-size: 15px;
+        border-radius: 2px;
+        border-radius: 50px;
+        transition: .50s;
+    }
+
+    &__nop:hover {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.050);
+        border-radius: 50px;
+        opacity: 0.9;
+        transition: .50s;
+        color: #FFFFFF;
+    }
+
+    @media(max-width: 1075px) {
+        &__nop__txt {
+            width: 100px;
+        }
+    }
+}
+
+.Bton {
+    &__knopp {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__knopp__txt {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1FBD8A;
+        color: #FFFFFF;
+        font-weight: 400;
+        height: 50px;
+        width: 262px;
+        line-height: 16px;
+        font-size: 15px;
+        border-radius: 2px;
+        border-radius: 50px;
+        transition: .50s;
+    }
+
+    &__knopp:hover {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.050);
+        border-radius: 50px;
+        opacity: 0.8;
+        transition: .50s;
+        color: #FFFFFF;
+    }
+
+    @media(max-width: 1075px) {
+        &__knopp__txt {
+            width: 110px;
+        }
+    }
+}

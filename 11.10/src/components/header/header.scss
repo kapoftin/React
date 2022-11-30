@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+@import url(/src/style/style.scss);
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.div {
+    &__header {
+        background-color: #1FBD8A;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.543);
+        flex-wrap: wrap;
+    }
+
+    .flex {
+        margin-left: 60px;
+        color: white;
+    }
+
+    &_img2 {
+        width: 40px;
+        height: 40px;
+        margin-left: 180px;
+    }
+    @media(max-width: 365px) {
+        &_img2 {
+            width: 40px;
+            height: 40px;
+            margin-left: 0px;
+        }
+    }
+
+    &__p1 {
+        margin-left: 60px;
+        color: white;
+    }
+
+    &__p2 {
+        margin-left: 60px;
+        color: white;
+    }
+
+    &__p3 {
+        margin-left: 60px;
+        color: white;
+    }
+
+    &__p4 {
+        margin-left: 60px;
+        color: white;
+    }
+
+    &__p5 {
+        margin-right: 150px;
+        margin-left: 60px;
+        color: white;
+    }
+
+    &__p6 {
+        margin-left: 60px;
+        color: white;
+    }
+
+    @media(max-width: 285px) {
+        .flex {
+            margin-left: 0px;
+            color: white;
+        }
+    }
+
+
+}
+
+.Button {
+    &__btn {
+        display: flex;
+        justify-content: center;
+        margin-left: 60px;
+    }
+
+    &__txt {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 16px;
+        color: #24475B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 158px;
+        height: 36px;
+        background: #F4FBF9;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 50px;
+        transition: .50s;
+    }
+
+    &__txt:hover {
+        color: #1FBD8A;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.050);
+        border-radius: 50px;
+    }
+}

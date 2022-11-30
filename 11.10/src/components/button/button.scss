@@ -1,0 +1,29 @@
+.Button {
+    &__knop {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__knop__txt {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFFFFF;
+        color: #013A51;
+        font-weight: 400;
+        height: 50px;
+        width: 262px;
+        line-height: 16px;
+        font-size: 15px;
+        border-radius: 2px;
+        border-radius: 50px;
+        transition: .50s;
+    }
+
+    &__knop:hover {
+        color: #1FBD8A;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.050);
+        border-radius: 50px;
+    }
+}
