@@ -1,0 +1,97 @@
+.marvel-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #aaaaaa;
+    margin-top: 120px;
+    max-height: 1300px;
+}
+
+.marvel-random-card{
+    width: auto;
+    height: auto;
+    background: #00659b;
+    border-radius: 5px;
+
+}
+
+.marvel-random{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.marvel-image{
+}
+
+.marvel-image img{
+    max-width: 300px;
+    max-width: 300px;
+    border-radius: 25px;
+}
+
+.max-tdp{
+
+
+}
+
+.marvel-title h2{
+
+}
+
+.marvel-descr{
+
+}
+
+.marvel-descr p{
+
+}
+
+.marvel-button{
+
+}
+.a{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    background-color: #8e8d8a;
+    width: 600px;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;    
+    font-size: 15px;
+    font-weight: 600;
+    top: -50%;
+    display: flex;
+    justify-content: center;    
+}
+.a:hover{
+    text-decoration: none;
+    background-color: #7d7d7d;
+    width: auto;
+    color: #272727;
+    display: flex;
+    justify-content: center;    
+}
+
+.marvel-button {
+    
+    background-color: #8e8d8a;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.marvel-button button:hover {
+    background-color: #8b8372;
+}
